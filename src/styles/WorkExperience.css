@@ -1,0 +1,49 @@
+.card {
+  border-bottom: 1px solid white;
+  margin-top: 1rem;
+}
+
+#fuse {
+  display: grid;
+  grid-template-areas:
+    'head date'
+    'desc desc';
+}
+
+.title-logo {
+  grid-area: head;
+  display: grid;
+  grid-template-areas:
+    'logo title'
+    'logo role';
+  grid-template-columns: 10rem auto;
+}
+
+.title-logo img {
+  grid-area: logo;
+  width: 100%;
+  height: auto;
+}
+
+.title-logo h2,
+.title-logo h3 {
+  text-align: left;
+  padding: 0.25rem;
+  margin-left: 0.5rem;
+}
+
+.title-logo h2 {
+  grid-area: title;
+  display: flex;
+  align-items: flex-end;
+}
+
+.text-bottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.card ul {
+  grid-area: desc;
+}

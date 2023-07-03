@@ -1,0 +1,11 @@
+#back-arrow {
+  filter: invert();
+  width: 3rem;
+  height: auto;
+  margin: 2rem;
+}
+
+h1 {
+  padding: 0;
+  padding-left: 5rem;
+}

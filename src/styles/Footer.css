@@ -1,0 +1,17 @@
+#footer {
+  display: flex;
+  justify-content: center;
+}
+
+#footer button {
+  font-size: 1.2rem;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+#footer button:hover {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  cursor: pointer;
+}

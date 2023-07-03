@@ -1,0 +1,45 @@
+.python-maze-solver {
+  display: grid;
+  grid-template-areas:
+    'title img'
+    'desc img';
+  padding-bottom: 2rem;
+  border-bottom: 1px solid white;
+}
+
+.barter-better {
+  display: grid;
+  grid-template-areas:
+    'img title'
+    'img desc';
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  border-bottom: 1px solid white;
+}
+
+.barter-better-imgs {
+  grid-area: img;
+  width: 50%;
+  margin: auto;
+}
+
+.pokegame {
+  display: grid;
+  grid-template-areas:
+    'title img'
+    'desc img';
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  border-bottom: 1px solid white;
+}
+
+.pokegame.project img {
+  width: 70%;
+}
+
+.project img {
+  width: 50%;
+  height: auto;
+  margin: auto;
+  grid-area: img;
+}

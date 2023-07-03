@@ -1,0 +1,20 @@
+.game {
+  text-align: center;
+  border-bottom: 1px solid black;
+  text-decoration: none;
+}
+
+.game img {
+  width: auto;
+  height: 15rem;
+}
+
+#games {
+  display: flex;
+  justify-content: space-between;
+}
+
+#games h3 {
+  color: black;
+  text-decoration: none;
+}

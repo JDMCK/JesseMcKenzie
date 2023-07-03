@@ -1,0 +1,36 @@
+nav {
+  background-color: black;
+  color: white;
+  padding-bottom: 2rem;
+}
+
+nav ul {
+  text-align: center;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  max-width: 60rem;
+  margin: auto;
+}
+
+nav li {
+  display: flex;
+  justify-content: center;
+  padding: 0.25rem;
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
+  width: 10rem;
+}
+
+nav button {
+  font-size: 1.2rem;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+nav button:hover {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  cursor: pointer;
+}

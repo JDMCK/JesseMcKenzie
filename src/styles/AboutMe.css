@@ -1,0 +1,143 @@
+#about-me {
+  display: grid;
+  grid-template-columns: 5% 90% 5%;
+  grid-template-rows: 95% 5%;
+}
+
+.hobby-slide {
+  height: 30rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.button-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#about-me button {
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 4rem;
+  min-height: 4rem;
+  width: 4rem;
+  cursor: pointer;
+}
+
+#about-me button:hover {
+  background-color: black;
+}
+
+#about-me button:hover img {
+  filter: invert();
+}
+
+#about-me button img {
+  width: 80%;
+  height: auto;
+}
+
+#about-me button.right img {
+  transform: rotate(180deg);
+}
+
+#about-me img {
+  max-height: 20rem;
+  width: auto;
+}
+
+#guitar {
+  display: grid;
+  grid-template-areas:
+    'title title'
+    'img audio'
+    'img desc';
+}
+
+#guitar img {
+  grid-area: img;
+  transform: rotate(-90deg);
+}
+
+#guitar h2 {
+  grid-area: title;
+}
+
+#guitar p {
+  grid-area: desc;
+}
+
+#longboarding {
+  display: grid;
+  grid-template-areas:
+    'title img'
+    'desc img';
+}
+
+#longboarding img {
+  max-height: 30rem;
+  grid-area: img;
+}
+
+#hello-world {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
+  height: 70%;
+}
+
+p.typed {
+  font-family: 'consolas';
+  white-space: nowrap;
+  border-right: 3px solid black;
+  overflow: hidden;
+  animation: codeTyped 5s steps(27) 1s infinite both,
+    blinkingTextCursor 1s infinite;
+}
+
+@keyframes codeTyped {
+  0% {
+    width: 0rem;
+  }
+
+  10% {
+    width: 0rem;
+  }
+
+  50% {
+    width: 44.5rem;
+  }
+
+  90% {
+    width: 44.5rem;
+  }
+
+  100% {
+    width: 0rem;
+  }
+}
+
+@keyframes blinkingTextCursor {
+  0% {
+    border-right-color: black;
+  }
+
+  49% {
+    border-right-color: black;
+  }
+
+  50% {
+    border-right-color: transparent;
+  }
+
+  100% {
+    border-right-color: transparent;
+  }
+}
