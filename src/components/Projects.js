@@ -35,11 +35,11 @@ const Projects = () => {
         </div>
         <div className='pokegame project'>
           <h2>Pokégame</h2>
-          <p>Pokégame is a memory game based on the popular Pokémon franchise. It features various difficulty modes and can
-            provide a real challenge. I spent a lot of effort making sure the game felt 'juicy' and fun to play, this is also
+          <p>{`Pokégame is a memory game based on the popular Pokémon franchise. It features various difficulty modes and can
+            provide a real challenge. I spent a lot of effort making sure the game felt "juicy" and fun to play, this is also
             why I made it graphically resemble old retro game systems. I built Pokégame in vanilla Javascript with help
             from the pokeapi for the assets. You can play it
-            yourself <Link href='https://jdmck-pokegame.netlify.app/' target='_blank' >here.</Link></p>
+            yourself `}<Link href='https://jdmck-pokegame.netlify.app/' target='_blank' >here.</Link></p>
           <Link href='https://jdmck-pokegame.netlify.app/' target='_blank' ><Image src={pokegame} alt='pokegame' /></Link>
         </div>
       </section>

@@ -10,7 +10,7 @@ import longboard from '../imgs/longboard.png';
 const AboutMe = () => {
 
   const slides = [
-    <div id='guitar' className='hobby-slide'>
+    <div id='guitar' className='hobby-slide' key={0}>
       <h2>Guitar</h2>
       <Image src={guitar} alt='guitar' />
       <div className='hobby-audio'>
@@ -23,22 +23,22 @@ const AboutMe = () => {
         favorite way to express it! My favourite artists who inspire me right now are <b>Noah Kahan</b>, <b>Lizzy McAlpine</b>,
         and of course, <b>The Beatles</b>.</p>
     </div>,
-    <div id='coding' className='hobby-slide'>
+    <div id='coding' className='hobby-slide' key={1}>
       <h2>Coding</h2>
-      <p>Believe it or not, I don't actually code just so other people think I'm cool! I legitimately love coding.
+      <p>{`Believe it or not, I don't actually code just so other people think I'm cool! I legitimately love coding.
         Breaking all these huge problems into tiny pieces and then obsessing over each one until every piece falls into
         place is incredibly satisfying. With coding, there is a never-ending supply of things to learn, and things
-        to build. I started this journey back in 2020 using c++ with my first hello world and I haven't looked back since.</p>
+        to build. I started this journey back in 2020 using c++ with my first hello world and I haven't looked back since.`}</p>
       <div id='hello-world'>
         <p className='typed'>{'std::cout << "Hello World";'}</p>
       </div>
     </div>,
-    <div id='longboarding' className='hobby-slide'>
+    <div id='longboarding' className='hobby-slide' key={2}>
       <h2>Longboarding</h2>
       <Image src={longboard} alt='longboard' />
-      <p>There is nothing quite like the feeling of carving back and forth on one of these bad boys. It genuinely
+      <p>{`There is nothing quite like the feeling of carving back and forth on one of these bad boys. It genuinely
         feels like I am flying. I'm no adrenaline junkie, but the call to bomb a hill on a longboard is sometimes
-        worryingly strong...</p>
+        worryingly strong...`}</p>
     </div>
   ]
 

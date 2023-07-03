@@ -21,7 +21,7 @@ const WorkExperience = () => {
           <ul>
             <li>Designed a front-end portal to access general employee information and access.</li>
             <li>Tested and iterated with VCH to ensure a shared vision.</li>
-            <li>Worked with Microsoft's Azure and Intune APIs.</li>
+            <li>{`Worked with Microsoft's Azure and Intune APIs.`}</li>
           </ul>
         </div>
         <div id='bugman' className='card'>
@@ -36,7 +36,7 @@ const WorkExperience = () => {
           <ul>
             <li>Analyzed and sold pest control solutions to customers via phone and email.</li>
             <li>Routed and scheduled a team of 7 technicians across the Fraser Valley.</li>
-            <li>Managed solutions to various unexpected issues that technicians would face during the day.</li>
+            <li>Generated solutions to various unexpected issues that technicians would face during the day.</li>
           </ul>
         </div>
         <div id='fuse' className='card'>
