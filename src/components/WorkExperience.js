@@ -7,7 +7,7 @@ import '../styles/WorkExperience.css';
 const WorkExperience = () => {
   return (
     <div className='dark'>
-      <h1>Work Experience</h1>
+      <h1 id='work-experience-title'>Work Experience</h1>
       <section id='work-experience'>
         <div id='intune' className='card'>
           <div className='title-logo'>
@@ -26,7 +26,7 @@ const WorkExperience = () => {
         </div>
         <div id='bugman' className='card'>
           <div className='title-logo'>
-            <h2>the Bugman Pest Control</h2>
+            <h2>The Bugman Pest Control</h2>
             <h3>Office Manager</h3>
             <Image src={bugman} alt='bugman_logo' />
           </div>
